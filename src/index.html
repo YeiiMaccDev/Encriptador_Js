@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="assets/img/logo.png" alt="Logo de la aplicacion">
+        <strong>Encriptador</strong>
+    </header>
+    <main class="main">
+        <section>
+            <div class="datos">
+                <textarea name="input-text" id="input-text" class="input-text"
+                    placeholder="Ingrese el texto aquí..."></textarea>
+                <div class="notas">
+                    <p><strong>Nota: </strong>Solo letras minúsculas y sin acentos</p>
+                </div>
+            </div>
+            <div class="botones">
+                <button class="btn btnEncriptar" id="btnEncriptar">
+                    Encriptar
+                </button>
+                <button class="btn btnDesencriptar" id="btnDesencriptar" >
+                    Desencriptar
+                </button>
+                <button class="btn btnPegar" id="btnPegar">
+                    Pegar
+                </button>
+            </div>
+        </section>
+        <section>
+            <div class="datos">
+                <textarea class="mensaje  ocultar" name="mensaje" id="mensaje" ></textarea>
+                <div class="mensaje-nota" id="mensaje-nota">
+                    <div class="nota-imagen">
+                        <img src="./assets/img/persona.png" alt="" srcset="">
+                    </div>
+                    <div class="nota-descripcion">
+                        <p><strong>Ningún mensaje fue encontrado.</strong></p>
+                        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="botones">
+                <button class="btn btnCopiar" id="btnCopiar">
+                    copiar
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Creado por <strong> YeiiMaccDev </strong></p>
+    </footer>
+</body>
+
+</html>
